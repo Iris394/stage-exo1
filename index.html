@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <link rel="stylesheet" href="/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite App</title>
+</head>
+<body>
+<div id="app">
+
+    <h1>Hello !</h1>
+    <div class="card">
+        <button id="counter" type="button">count is 0</button>
+        <div class="container purple">
+            <span>Valeur du compteur au carré : 0</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <button id="change-color" type="button">Changer la couleur aléatoirement
+        </button>
+        <div class="container">
+            <span>affichage de la couleur</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <button id="send-message" type="button">envoyer le message
+        </button>
+        <div class="messages">
+            <div>
+                <label for="to-send">Message a envoyer</label>
+                <textarea id="to-send" class="container"></textarea>
+            </div>
+            <div>
+                <label for="get">Message recu</label>
+                <textarea id="get" class="container"></textarea>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
